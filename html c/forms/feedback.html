@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            color: white;
+            background-color: rgb(77, 77, 216);
+            text-size-adjust:large;
+            padding: 1%;
+        }
+        body{
+            background-color: rgb(57, 191, 196);
+        }
+    .star1{
+        padding-left: 25%;
+        padding-right: 25%;
+        border-radius:205;
+
+    }
+    fieldset{
+        background-color:white;
+
+    }
+    .custom-textarea{
+     width: 99%;
+     height: 80px;
+     font-style: inherit;
+    }
+    .star1 button{
+        font-size: 2rem;
+            box-shadow: 0px 0px 20px rgb(147, 148, 219);
+            border-radius: 12px;
+            background-color: rgb(92, 60, 206);
+            padding: 10px 10px;
+            width: 46%;
+            text-align: center;
+            margin-left: 25%;
+    }
+    
+    </style>
+</head>
+<body>
+    <h1> FOOD REVIEW </h1>
+    <div class="star1">
+        <form action="forms.html">
+        <fieldset>
+        <label for="star"></label>
+        <input type="radio" id="star" name="star" required>
+        <img src="download.jpeg" alt="">
+        <input type="radio" id="star" name="star">
+        <img src="1.jpeg" alt="">
+        <input type="radio" id="star" name="star">
+        <img src="2.jpeg" alt="">
+        <input type="radio" id="star" name="star">
+        <img src="3.jpeg" alt="">
+        <input type="radio" id="star" name="star">
+        <img src="4.jpeg" alt="" aria-required=""> 
+        <br> 
+        <br>
+        <label for="multi-line-input">Review:</label>
+        <textarea id="multi-line-input" class="custom-textarea" placeholder="Text Here"></textarea>
+        <button ac>Submit</button>
+        </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>

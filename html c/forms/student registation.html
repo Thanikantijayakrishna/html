@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student registation form</title>
+</head>
+<style>
+    body{
+            font-family: Arial, sans-serif;
+            background-color: #f3f2ef;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            margin-inline:0% ;
+            display: block;
+         }
+    h1{
+        text-align: center;
+        color: rgb(23, 65, 65);
+    }
+    .form1 label{
+        padding:2px;
+        font-size: large;
+    }
+    .form1 input{
+        width: 98%;
+        padding: 7px ;
+    }
+    fieldset{
+        width: 52%;
+        justify-content: center;
+        margin-right: 20%;
+        margin-left: 20%;
+        padding: 70px;
+    }
+    button{ 
+        margin-top: 7%;
+        margin-left: 33%;
+        font-size: large;
+        width: 25%;
+        box-sizing: border-box;
+        }
+      
+</style>
+<body>
+    <fieldset >
+    <form target="done.html">
+        <h1>University Registration</h1>
+    <div class="form1">
+         <label for="name">FirstName:</label>
+         <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form1">
+        <label for="lname">LastName:</label>
+        <input type="text" id="lname" name="lname" required> 
+    </div>
+
+   <div class="form1">
+    <label for="d">Date of Birth:</label>
+    <input type="date" id="d" name="d" required>
+   </div>  
+   <div class="form1">
+    <label for="age">Email:</label>
+    <input type="email" id="age" name="age" required>
+   </div>
+   <div class="form1">
+     <label for="phone">Phone No:</label>
+    <input type="tel" id="phone" name="phone"  placeholder="+91">
+   </div>
+   <p>Select Your Course</p>
+   <div class="ra">
+     <input type="radio" id="bu" name="bu">
+     <label for="bu" id="bu">CSE</label>
+     <input type="radio" id="bu" name="bu">
+     <label for="bu" id="bu1" >CSE-AIML</label>
+     <input type="radio" id="bu" name="bu">
+     <label for="bu" id="bu2">CSE-DS</label>
+     <input type="radio" id="bu" name="bu">
+     <label for="bu" id="bu">CSE-CS</label>
+     <input type="radio" id="bu" name="bu">
+     <label for="bu" id="bu">ECE</label>
+     
+   </div>
+    <button type="submit" >Submit</button>
+    </form>
+    </fieldset>
+</body>
+</html>
